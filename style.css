@@ -68,9 +68,12 @@ body{
     padding: 5px;
     border-radius: 3px;
     font-size: 0.8em;
-    position: relative;
+    position: absolute;
     margin-top: 10px;
     left: 850px;
+    right: 10px;
+    bottom: 10px
+
 }
 
 .delete-comment{
@@ -85,11 +88,12 @@ ul {
     padding: 10px;
     box-shadow: 2px 2px 6px 0px gray;
     margin: 20px;
+    position: relative;
 }
 li{
     margin: 10px;
 }
-input#addCommentsButton {
+#addCommentsButton {
     margin: 10px;
     cursor: pointer;
     color: #ecf0f1;
