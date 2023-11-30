@@ -72,8 +72,9 @@ body{
     margin-top: 10px;
     left: 850px;
     right: 10px;
-    bottom: 10px
-
+    bottom: 10px;
+    width: 100px; 
+    left: 90%;
 }
 
 .delete-comment{
